@@ -16,7 +16,7 @@ if __name__ == '__main__':
     #parser.add_argument('--resolution')
     #parser.add_argument('--output', default='output.png')
     parser.add_argument('--gpu', default='0')
-    parser.add_argument('--save_path', default='./save_picture3')
+    parser.add_argument('--save_path', default='./save_picture')
     args = parser.parse_args()
     # 以下是输入数据集的路径
     args.input_path = './load/div2k/DIV2K_valid_LR_bicubic/X4'
