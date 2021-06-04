@@ -6,6 +6,9 @@
 * 需要gpu
 
 # 数据集准备 #
+
+新建load文件夹
+
 __DIV2K数据集:__  下载后解压到load/div2k文件夹中
 * [DIV2K website](https://data.vision.ee.ethz.ch/cvl/DIV2K)
 
@@ -42,8 +45,8 @@ __其他数据集：__`bash scripts/test-benchmark.sh [MODEL_PATH] [GPU]`
 
 ## 使用模型测试集进行图像生成 ##
 
-在code文件下运行以下指令
+在code文件下运行以下指令,并新建一个save_picture文件夹
 
 `python test_data.py --model[MODEL_PATH] --gpu [GPU]`
 
-最后结果会在test_picture文件夹中生成
+最后结果会在save_picture文件夹中生成
