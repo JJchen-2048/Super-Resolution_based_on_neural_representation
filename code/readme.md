@@ -7,10 +7,10 @@
 
 # 数据集准备 #
 __DIV2K数据集:__  下载后解压到load/div2k文件夹中
-* [DIV2K website](https://data.vision.ee.ethz.ch/cvl/DIV2K/）
+* [DIV2K website](https://data.vision.ee.ethz.ch/cvl/DIV2K)
 
 __其他数据集:__ 下载后直接解压得到一个benchmark文件夹，将该文件夹移动到load文件夹中
-* [benchmark](https://cv.snu.ac.kr/research/EDSR/benchmark.tar）
+* [benchmark](https://cv.snu.ac.kr/research/EDSR/benchmark.tar)
 
 #运行代码#
 ##训练##
